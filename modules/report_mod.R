@@ -71,8 +71,8 @@ report_server <- function(id) {
           
           else {
 
-          temp_path1 <- file.path(tempdir(), "ks-report.Rmd")
-          file.copy(paste0("www/", "ks-report.Rmd"), temp_path1, overwrite = TRUE)
+          temp_path1 <- file.path(tempdir(), "ks-report-re.Rmd")
+          file.copy(paste0("www/", "ks-report-re.Rmd"), temp_path1, overwrite = TRUE)
           
           temp_path2 <- file.path(tempdir(), "ks_new_logo.svg")
           file.copy(paste0("www/", "assets/images/ks_new_logo.svg"), temp_path2, overwrite = TRUE)
