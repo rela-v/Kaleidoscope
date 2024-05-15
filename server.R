@@ -10,7 +10,8 @@ server<- shinyServer(function(input, output, session){
   lookup_server("lookupTab")
   pharos_server("pharosTab")
   #gsea_server("gseaTab")
-  report_server("reportTab")
+  generate_html_report("reportTab")
+  generate_pdf_report("reportTab")
   
   
   

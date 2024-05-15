@@ -5,12 +5,7 @@ title: |
 author: "The Cognitive Disorders Research Laboratory (CDRL)"
 date: "`r format(Sys.time(), '%d %B, %Y - %H:%M:%S %Z')`"
 output: 
-  html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
-    code_folding: hide
-    theme: paper
+  pdf_document: default
 
 params:
   gene: NA
@@ -917,4 +912,5 @@ if(!is.null(gtex_res)) {
 }
 
 ```
+
 

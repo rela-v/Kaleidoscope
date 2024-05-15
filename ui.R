@@ -60,38 +60,45 @@ shinyUI(
                                        #          gsea_ui("gseaTab")
                                        # ),
                                        # String ----
-                                       tabPanel("STRING", icon = icon("", class = "icon-genius", verify_fa = FALSE),
+                                       tabPanel("STRING", icon = icon('icon-genius',
+                                                                      class = "icon-genius", verify_fa = FALSE),
                                                 string_ui("stringTab")
                                                 ),
                                        # iLINCS ----
-                                       tabPanel("iLINCS", icon = icon("", class = "icon-lifesaver", verify_fa = FALSE),
+                                       tabPanel("iLINCS", icon = icon('icon-lifesaver',
+                                                                      class = "icon-lifesaver", verify_fa = FALSE),
                                                 iincs_ui("lincsTab")
                                                 ),
                                        # Lookup ----
-                                       tabPanel("Lookup", icon = icon("", class = "icon-search", verify_fa = FALSE),
+                                       tabPanel("Lookup", icon = icon('icon-search',
+                                                                      class = "icon-search", verify_fa = FALSE),
                                                 lookup_ui("lookupTab")
                                                 ),
                                        # BrainCloud ----
-                                       tabPanel("BrainCloud", icon = icon("", class = "icon-linegraph", verify_fa = FALSE),
+                                       tabPanel("BrainCloud", icon = icon('icon-linegraph',
+                                                                          class = "icon-linegraph", verify_fa = FALSE),
                                                 braincloud_ui("braincloudTab")
                                                 ),
                                        # GTEx ----
-                                       tabPanel("GTEx", icon = icon("", class = "icon-profile-male", verify_fa = FALSE),
+                                       tabPanel("GTEx", icon = icon('icon-profile-male',
+                                                                    class = "icon-profile-male", verify_fa = FALSE),
                                                 gtex_ui("gtexTab")
                                                 ),
                                        # BrainAtlas ----
-                                       tabPanel("BrainAtlas", icon = icon("", class = "icon-aperture", verify_fa = FALSE),
+                                       tabPanel("BrainAtlas", icon = icon('icon-aperture',
+                                                                          class = "icon-aperture", verify_fa = FALSE),
                                                 brainatlas_ui("brainatlasTab")
                                                 ),
                                        # GWAS ----
-                                       tabPanel("GWAS", icon = icon("", class = "icon-map", verify_fa = FALSE),
+                                       tabPanel("GWAS", icon = icon("icon-map",
+                                                                    class = "icon-map", verify_fa = FALSE),
                                                 gwascatalog_UI("gwascatalogTab")
                                                 ),
-                                       tabPanel("IDG", icon = icon("", class = "icon-lightbulb", verify_fa = FALSE),
+                                       tabPanel("IDG", icon = icon("icon-lightbulb", class = "icon-lightbulb", verify_fa = FALSE),
                                                 pharos_ui("pharosTab")
                                        ),
                     
-                                       tabPanel("Report", icon = icon("", class = "icon-browser", verify_fa = FALSE),
+                                       tabPanel("Report", icon = icon("icon-browser", class = "icon-browser", verify_fa = FALSE),
                                                 report_ui("reportTab")
                                        )
 
