@@ -11,7 +11,6 @@ server<- shinyServer(function(input, output, session){
   pharos_server("pharosTab")
   #gsea_server("gseaTab")
   generate_html_report("reportTab")
-  generate_pdf_report("reportTab")
   
   
   
